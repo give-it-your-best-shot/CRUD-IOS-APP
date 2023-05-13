@@ -1,0 +1,500 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		62D00B7E2A0B2AE900B6435E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62D00B7D2A0B2AE900B6435E /* AppDelegate.swift */; };
+		62D00B802A0B2AE900B6435E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62D00B7F2A0B2AE900B6435E /* SceneDelegate.swift */; };
+		62D00B822A0B2AE900B6435E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62D00B812A0B2AE900B6435E /* ViewController.swift */; };
+		62D00B852A0B2AE900B6435E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62D00B832A0B2AE900B6435E /* Main.storyboard */; };
+		62D00B882A0B2AE900B6435E /* EnouvoTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 62D00B862A0B2AE900B6435E /* EnouvoTest.xcdatamodeld */; };
+		62D00B8A2A0B2AEC00B6435E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62D00B892A0B2AEC00B6435E /* Assets.xcassets */; };
+		62D00B8D2A0B2AEC00B6435E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62D00B8B2A0B2AEC00B6435E /* LaunchScreen.storyboard */; };
+		62D00B972A0B3C0100B6435E /* AddMD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62D00B962A0B3C0100B6435E /* AddMD.swift */; };
+		62D1BECB2A0CC5E100183432 /* ApproverCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62D1BEC92A0CC5E100183432 /* ApproverCell.swift */; };
+		62D1BECC2A0CC5E100183432 /* ApproverCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 62D1BECA2A0CC5E100183432 /* ApproverCell.xib */; };
+		62D1BECF2A0CE78300183432 /* DeleteAndUpdateMD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62D1BECD2A0CE78300183432 /* DeleteAndUpdateMD.swift */; };
+		62EB267F2A0BC02800A5762A /* ApprovalMatrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62EB267E2A0BC02800A5762A /* ApprovalMatrix.swift */; };
+		62EB26812A0BC17F00A5762A /* ApprovalMatrixService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62EB26802A0BC17F00A5762A /* ApprovalMatrixService.swift */; };
+		62EB26862A0BD05300A5762A /* ApprovalMatrixCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62EB26842A0BD05300A5762A /* ApprovalMatrixCell.swift */; };
+		62EB26872A0BD05300A5762A /* ApprovalMatrixCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 62EB26852A0BD05300A5762A /* ApprovalMatrixCell.xib */; };
+		EFC936692408A6CFC8473EE6 /* Pods_EnouvoTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7077EC4AD851587C2406E990 /* Pods_EnouvoTest.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		62D00B7A2A0B2AE900B6435E /* EnouvoTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EnouvoTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		62D00B7D2A0B2AE900B6435E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		62D00B7F2A0B2AE900B6435E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		62D00B812A0B2AE900B6435E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		62D00B842A0B2AE900B6435E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		62D00B872A0B2AE900B6435E /* EnouvoTest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EnouvoTest.xcdatamodel; sourceTree = "<group>"; };
+		62D00B892A0B2AEC00B6435E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		62D00B8C2A0B2AEC00B6435E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		62D00B8E2A0B2AEC00B6435E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62D00B962A0B3C0100B6435E /* AddMD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMD.swift; sourceTree = "<group>"; };
+		62D1BEC92A0CC5E100183432 /* ApproverCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApproverCell.swift; sourceTree = "<group>"; };
+		62D1BECA2A0CC5E100183432 /* ApproverCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ApproverCell.xib; sourceTree = "<group>"; };
+		62D1BECD2A0CE78300183432 /* DeleteAndUpdateMD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteAndUpdateMD.swift; sourceTree = "<group>"; };
+		62EB267E2A0BC02800A5762A /* ApprovalMatrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApprovalMatrix.swift; sourceTree = "<group>"; };
+		62EB26802A0BC17F00A5762A /* ApprovalMatrixService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApprovalMatrixService.swift; sourceTree = "<group>"; };
+		62EB26842A0BD05300A5762A /* ApprovalMatrixCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApprovalMatrixCell.swift; sourceTree = "<group>"; };
+		62EB26852A0BD05300A5762A /* ApprovalMatrixCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ApprovalMatrixCell.xib; sourceTree = "<group>"; };
+		7077EC4AD851587C2406E990 /* Pods_EnouvoTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EnouvoTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		96274A67703904BE55E76703 /* Pods-EnouvoTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EnouvoTest.debug.xcconfig"; path = "Target Support Files/Pods-EnouvoTest/Pods-EnouvoTest.debug.xcconfig"; sourceTree = "<group>"; };
+		B203028F19CD6CF328E34EE3 /* Pods-EnouvoTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EnouvoTest.release.xcconfig"; path = "Target Support Files/Pods-EnouvoTest/Pods-EnouvoTest.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		62D00B772A0B2AE900B6435E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFC936692408A6CFC8473EE6 /* Pods_EnouvoTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		623AA72C2A0B997200E4F7F4 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				62D00B812A0B2AE900B6435E /* ViewController.swift */,
+				62D00B962A0B3C0100B6435E /* AddMD.swift */,
+				62EB26842A0BD05300A5762A /* ApprovalMatrixCell.swift */,
+				62EB26852A0BD05300A5762A /* ApprovalMatrixCell.xib */,
+				62D1BEC92A0CC5E100183432 /* ApproverCell.swift */,
+				62D1BECA2A0CC5E100183432 /* ApproverCell.xib */,
+				62D1BECD2A0CE78300183432 /* DeleteAndUpdateMD.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		62D00B712A0B2AE900B6435E = {
+			isa = PBXGroup;
+			children = (
+				62D00B7C2A0B2AE900B6435E /* EnouvoTest */,
+				62D00B7B2A0B2AE900B6435E /* Products */,
+				9D82019FD1FB18DB91AC09AE /* Pods */,
+				6532546F09894F761EDD057D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		62D00B7B2A0B2AE900B6435E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				62D00B7A2A0B2AE900B6435E /* EnouvoTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		62D00B7C2A0B2AE900B6435E /* EnouvoTest */ = {
+			isa = PBXGroup;
+			children = (
+				62EB267B2A0BBF0800A5762A /* model */,
+				623AA72C2A0B997200E4F7F4 /* view */,
+				62D00B7D2A0B2AE900B6435E /* AppDelegate.swift */,
+				62D00B7F2A0B2AE900B6435E /* SceneDelegate.swift */,
+				62D00B832A0B2AE900B6435E /* Main.storyboard */,
+				62D00B892A0B2AEC00B6435E /* Assets.xcassets */,
+				62D00B8B2A0B2AEC00B6435E /* LaunchScreen.storyboard */,
+				62D00B8E2A0B2AEC00B6435E /* Info.plist */,
+				62D00B862A0B2AE900B6435E /* EnouvoTest.xcdatamodeld */,
+			);
+			path = EnouvoTest;
+			sourceTree = "<group>";
+		};
+		62EB267B2A0BBF0800A5762A /* model */ = {
+			isa = PBXGroup;
+			children = (
+				62EB267E2A0BC02800A5762A /* ApprovalMatrix.swift */,
+				62EB26802A0BC17F00A5762A /* ApprovalMatrixService.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		6532546F09894F761EDD057D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7077EC4AD851587C2406E990 /* Pods_EnouvoTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9D82019FD1FB18DB91AC09AE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				96274A67703904BE55E76703 /* Pods-EnouvoTest.debug.xcconfig */,
+				B203028F19CD6CF328E34EE3 /* Pods-EnouvoTest.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		62D00B792A0B2AE900B6435E /* EnouvoTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62D00B912A0B2AEC00B6435E /* Build configuration list for PBXNativeTarget "EnouvoTest" */;
+			buildPhases = (
+				F108285192750C6685110806 /* [CP] Check Pods Manifest.lock */,
+				62D00B762A0B2AE900B6435E /* Sources */,
+				62D00B772A0B2AE900B6435E /* Frameworks */,
+				62D00B782A0B2AE900B6435E /* Resources */,
+				F8BE9CC142702619445082A1 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EnouvoTest;
+			productName = EnouvoTest;
+			productReference = 62D00B7A2A0B2AE900B6435E /* EnouvoTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		62D00B722A0B2AE900B6435E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					62D00B792A0B2AE900B6435E = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 62D00B752A0B2AE900B6435E /* Build configuration list for PBXProject "EnouvoTest" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 62D00B712A0B2AE900B6435E;
+			productRefGroup = 62D00B7B2A0B2AE900B6435E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				62D00B792A0B2AE900B6435E /* EnouvoTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		62D00B782A0B2AE900B6435E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62D00B8D2A0B2AEC00B6435E /* LaunchScreen.storyboard in Resources */,
+				62EB26872A0BD05300A5762A /* ApprovalMatrixCell.xib in Resources */,
+				62D00B8A2A0B2AEC00B6435E /* Assets.xcassets in Resources */,
+				62D00B852A0B2AE900B6435E /* Main.storyboard in Resources */,
+				62D1BECC2A0CC5E100183432 /* ApproverCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F108285192750C6685110806 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EnouvoTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F8BE9CC142702619445082A1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EnouvoTest/Pods-EnouvoTest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EnouvoTest/Pods-EnouvoTest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EnouvoTest/Pods-EnouvoTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		62D00B762A0B2AE900B6435E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62D1BECF2A0CE78300183432 /* DeleteAndUpdateMD.swift in Sources */,
+				62D00B822A0B2AE900B6435E /* ViewController.swift in Sources */,
+				62EB26812A0BC17F00A5762A /* ApprovalMatrixService.swift in Sources */,
+				62D00B972A0B3C0100B6435E /* AddMD.swift in Sources */,
+				62D00B7E2A0B2AE900B6435E /* AppDelegate.swift in Sources */,
+				62D1BECB2A0CC5E100183432 /* ApproverCell.swift in Sources */,
+				62D00B802A0B2AE900B6435E /* SceneDelegate.swift in Sources */,
+				62EB26862A0BD05300A5762A /* ApprovalMatrixCell.swift in Sources */,
+				62D00B882A0B2AE900B6435E /* EnouvoTest.xcdatamodeld in Sources */,
+				62EB267F2A0BC02800A5762A /* ApprovalMatrix.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		62D00B832A0B2AE900B6435E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				62D00B842A0B2AE900B6435E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		62D00B8B2A0B2AEC00B6435E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				62D00B8C2A0B2AEC00B6435E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		62D00B8F2A0B2AEC00B6435E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		62D00B902A0B2AEC00B6435E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		62D00B922A0B2AEC00B6435E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96274A67703904BE55E76703 /* Pods-EnouvoTest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5X5ZT8Q2PW;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EnouvoTest/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.HaiDang.EnouvoTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		62D00B932A0B2AEC00B6435E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B203028F19CD6CF328E34EE3 /* Pods-EnouvoTest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5X5ZT8Q2PW;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EnouvoTest/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.HaiDang.EnouvoTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		62D00B752A0B2AE900B6435E /* Build configuration list for PBXProject "EnouvoTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62D00B8F2A0B2AEC00B6435E /* Debug */,
+				62D00B902A0B2AEC00B6435E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62D00B912A0B2AEC00B6435E /* Build configuration list for PBXNativeTarget "EnouvoTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62D00B922A0B2AEC00B6435E /* Debug */,
+				62D00B932A0B2AEC00B6435E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		62D00B862A0B2AE900B6435E /* EnouvoTest.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				62D00B872A0B2AE900B6435E /* EnouvoTest.xcdatamodel */,
+			);
+			currentVersion = 62D00B872A0B2AE900B6435E /* EnouvoTest.xcdatamodel */;
+			path = EnouvoTest.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 62D00B722A0B2AE900B6435E /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module Pods_EnouvoTest {
+  umbrella header "Pods-EnouvoTest-umbrella.h"
+
+  export *
+  module * { export * }
+}
