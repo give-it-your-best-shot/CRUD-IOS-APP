@@ -1,6 +1,5 @@
 # EnouvoTest
 ## Demo App
-
 ### Main page
 Bao gồm 
 - 1 dropdown default 
@@ -51,4 +50,5 @@ Bao gồm 1 scroll view cho phép người dùng di chuyển qua một danh sác
 <br>
 <br>
 
-
+## Video demo
+[![Watch the video]](https://github.com/give-it-your-best-shot/EnouvoTest/blob/main/Document/video-demo.mp4)
